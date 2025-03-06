@@ -1,0 +1,14 @@
+*** Para ver o projeto funcionando, esta sendo instanciada uma base de dados usando o H2, para isso
+tem que digitar a info no application.properties
+
+spring.application.name=hr-worker
+server.port=8001
+# Database configuration h2
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=sa
+spring.datasource.password=
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+*** Quando roda o projeto e tem o bd h2, ele automaticamente roda o script que esta no data.sql para popular o bd
+
